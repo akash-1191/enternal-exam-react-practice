@@ -6,8 +6,49 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+nav{
+  background-color: rgb(39, 38, 38);
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+ul{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  list-style-type: none;
+}
+li a{
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
+  transition: .2s all;
+}
+li:hover{
+  transform: scale(1.2);
+}
+
+.footer{
+  background-color: rgb(37, 37, 37);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10%;
+}
+
+.formdiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainform{
+  background-color: antiquewhite;
+  width: 400px;
+  padding: 20px;
+}
+input{
+  padding: 5px;
+  margin: 5px;
+  border-radius: 4px;
 }

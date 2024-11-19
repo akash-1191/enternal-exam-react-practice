@@ -1,0 +1,27 @@
+[
+    {
+        "name":"Akash",
+        "age":21,
+        "status":true
+    },
+    {
+        "name":"Aditya",
+        "age":21,
+        "status":false
+    },
+    {
+        "name":"Avanish",
+        "age":21,
+        "status":true
+    },
+    {
+        "name":"Somnath",
+        "age":21,
+        "status":true
+    },
+    {
+        "name":"Pavan",
+        "age":21,
+        "status":true
+    }
+]
